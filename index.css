@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.mainContainer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.header_container{
+   width: 100%;
+   height: 30px;
+   padding:10px;
+   background-color: black;
+}
+.image{
+    height:100%;
+    width: 130px;
+}
+.ticketSelection{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#ticket{
+    width: 200px;
+    height: 35px;
+    margin-right: 10px;
+}
+#qty{
+    width: 60px;
+    height: 35px;
+}
+
+.rowsheetdesign{
+  display: flex;
+  flex-direction: row;
+  
+}
+.sheetdesign{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+.sheet{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 150px;
+    border-bottom: 1px solid green;
+}
+.columnsheet{
+    display: flex;
+    flex-direction: column;
+}
+.jsheet{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.ptag{
+    width: 40px;
+    height: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid #0ff03c;
+    padding: 2px;
+}
+.ltag{
+    margin-right: 70px;
+}
+.ptag:hover{
+    background-color: #0ff03c;
+    color: #fff;
+}
+.lsheet{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.sheetf{
+    display: flex;
+    flex-direction: row;
+}
+.sheets{
+    display: flex;
+    flex-direction: row;
+    margin-left: 94px;
+}
+.ptag{
+    margin-right: 70px;
+}
+.ptag{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid #0ff03c;
+    padding: 2px;
+    cursor: pointer;
+}
+.pbooktag{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid #abaaa7;
+    background-color: #abaaa7;
+    padding: 2px;
+}
+.jtag
+{
+    margin-right: 75px;
+}
+.sheet1{
+    margin-left: 10px;
+}
+.sheetLayout{
+    margin-left: 50px;
+}
+.availablesheet{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.labletag{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border: 1px solid #0ff03c;
+    margin-left: 10px;
+}
+.labletag1{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-left: 10px;
+    background-color: #abaaa7;
+}
+.selectionlable{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-left: 10px;
+    background-color: #0ff03c;
+}
+.button{
+    width: 93%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.buttonStayle{
+    padding: 10px;
+    background-color: #0ff03c;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.buttonStayle:hover{
+    background-color: #abaaa7;
+}
